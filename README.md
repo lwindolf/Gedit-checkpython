@@ -1,4 +1,4 @@
-Gedit Python checker
+# Gedit Python checker
 
 A simple gedit plugin for checking python files.
 Currently checks:
@@ -16,7 +16,7 @@ code in similar way as this plugin with two differences:
 on given list
 
 
-Installation
+## Installation
 
 You will need both the pycodestyle(former pep8) and pyflakes modules, available from pypi.
 
@@ -24,6 +24,8 @@ You will need both the pycodestyle(former pep8) and pyflakes modules, available 
   pip3 install pyflakes
   pip3 install pycodestyle # pep8 on older distros
 ```
+
+For easy automatic installation you can install this plugin using the [Gedit Plugin Installer](https://github.com/lwindolf/gedit-plugininstaller/) or you can do it manually: 
 
 Copy (or clone) this repository in your gedit plugins directory (create it if it
 does not exists):
